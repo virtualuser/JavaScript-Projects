@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="css/text.css" /> 
+	<link rel="stylesheet" href="css/style.css" /> 
+	<title>Address Book</title>
+</head>
+<body>
+	<h1>Address Book</h1>
+
+	<form action="" method="get" id="search-form">
+		<div class="section">
+			<label for="query" id="label">Search address book</label> 
+			<input type="search" id="query" name="query"  required placeholder="type a name" />
+			<input type="search" id="autocomplete" name="autocomplete" disabled = "disabled"/>
+		</div><!--/.section-->
+
+		<div class="button-group">
+			<button type="submit" id="btn-search">search</button>
+			<button type="button" id="get-all">get all contacts</button>
+		</div><!--/.button-group-->	
+	</form>
+
+	<div id="output"></div>
+
+	<script type="text/javascript" src="js/javascript.js"></script>
+</body>
+</html>

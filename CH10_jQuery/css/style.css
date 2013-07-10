@@ -1,0 +1,11 @@
+#container {
+	
+	overflow: hidden;
+}
+
+.module {
+	margin-top: 50px;
+	width: 33%;
+	float: left;
+	background: #eee;
+}

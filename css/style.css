@@ -1,0 +1,44 @@
+div {
+	position: relative;
+}
+
+form div {
+	margin: 30px 10px 30px;
+}
+
+.active {
+	background: rgba(255, 135, 175, 0.5);
+}
+
+.hovering {
+	background: #eee;
+}
+
+.output {
+	margin: 30px 10px 30px;
+}
+
+#query {
+	position: absolute;
+	top: 0;
+	left: 150px;
+	z-index: 2;
+	background: transparent;
+}
+
+#autocomplete {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 150px;
+	background: transparent;
+}
+
+#output {
+	height: 300px;
+	width: 300px;
+}
+
+#query {
+	-webkit-appearance: none;	
+}
